@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- ✅ HEADER -->
+  <title>JR Hope</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 🖤 HEADER SECTION -->
+  <header>
+    <h1>JS Hope </h1>
+    <p>Dark Elegance That Speaks Your Soul</p>
+  </header>
+
+  <!-- 👗 MAIN CONTENT -->
+  <main>
+    <!-- Di sinilah kamu letakkan produk dan modal popup -->
+    <div class="product" onclick="openModal('jeans')">
+      <img src="https://i.pinimg.com/736x/92/9f/19/929f1994dd2514d584c604a812401760.jpg" alt="Gothic Jeans">
+      <p>Tornado Mart 'Tribal' Embroidered Flared Jeans</p>
+      <p>90.00 USD</p>
+    </div>
+
+    <!-- Modal detail produk -->
+    <div id="modal-jeans" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('jeans')">&times;</span>
+        <img src="https://i.pinimg.com/736x/92/9f/19/929f1994dd2514d584c604a812401760.jpg" alt="Gothic Jeans">
+        <h2>Tornado Mart 'Tribal' Embroidered Flared Jeans</h2>
+        <p>Price: 90.00 USD</p>
+        <p>Beautifully embroidered flared jeans inspired by gothic street style.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ⚙ FOOTER -->
+  <footer>
+    <p>© 2025 JR Hope. All Rights Reserved.</p>
+  </footer>
+
+  <!-- 📜 SCRIPT di bawah sebelum </body> -->
+  <script src="script.js"></script>
+
+</body>
+</html>
